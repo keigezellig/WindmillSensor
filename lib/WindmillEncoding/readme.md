@@ -4,16 +4,17 @@ on the RfxMeter protocol before it is sent through the 433 mhz transmitter.
 In this way the signal can be understood and decoded by the RfxCom transceiver device.
 
 ## Overview of the format
+
 |23|22|21|20|19|18|17|16|
-|:------:|:--:|:--------:|
+|:--|:--|:--|:--|:--|:--|:--|:--|
 |qty|qty|qty|qty|signbit|value|value|value
 
 |15|14|13|12|11|10|9|8|
-|:-|:-|:-|:-|:-|:-|:|::|
+|:--|:--|:--|:--|:--|:--|:--|:--|
 |value|value|value|value|value|value|value|value|
 
 |7|6|5|4|3|2|1|0|
-|:-|:-|:-|:-|:-|:-|:|::|
+|:--|:--|:--|:--|:--|:--|:--|:--|
 |value|value|value|value|value|value|value|value|
 
 ### Quantity
